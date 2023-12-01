@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: rgb(20, 19, 19);
+  } 
+/*Estilos del header*/
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color:rgb(21, 169, 177);
+  }
+  
+  .logo {
+    max-width: 5rem;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color:aquamarine;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }  
+
+/* Estilos para el botón */
+#buscarCocktel {
+    padding: 18px 24px;
+    margin: 18px 24px 12px 6px;
+    font-size: 16px;
+    background-color: #d024ca;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #d024ca, 0 0 10px #d024ca, 0 0 10px #d024ca, 0 0 10px #d024ca, 0 0 10px #d024ca, 0 0 40px #d024ca, 0 0 10px #d024ca, 0 0 10px #d024ca;
+    animation: glowing 1.5s infinite linear;
+  }
+  
+  /* Estilos para el contenedor de detalles */
+  #detallesCocktel {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color:purple;
+  }
+
+  td {
+    background-color: #f2f2f2;
+    color:rgb(168, 27, 184);
+  }
+  
+  th:first-child,
+  td:first-child {
+    width: 30%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+  }
+  
+/*Estilos del footer*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21, 169, 177);
+  }
+  
+  .container-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .links{
+    color:rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:50px;
+    text-decoration:none;
+  }
+  
+  .icon{
+    font-size: 25px;
+    padding:10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .icon:hover{
+    background-color:#43c794;
+    border-radius: 10px;
+  }
+  
+  .final-container{
+    color:aquamarine;;
+    text-align:center;
+    font-size: 1.3rem;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }  

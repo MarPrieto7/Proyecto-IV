@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/290cdfd1a5.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="data:,">
+  <title>Busqueda cócteles por nombre</title>
+  <link rel="stylesheet" href="./style/styles.css">
+
+  <link rel="icon" href="./imagen/logo_coctel.png">
+
+</head>
+<body>
+ <header>
+    <a href="./index.html"><img class="logo" src="./imagen/logo_coctel.png" alt="logo"/></a>
+    <nav class="nav" id="nav">
+      <ul class="nav-list">
+          <li><a href="./index.html">Cocktails<br>Databases </a></li>
+          <li><a href="./other_index/index1.html">Random <br>Cocktails</a></li>
+          <li><a href="">Register</a></li>
+          <li><a href="">Contact</a></li>
+      </ul>
+  </nav>
+ </header>
+
+  <div class="container">
+    <h1 class="neon-text">Todo Cocktails</h1>
+    <input type="text" id="searchInput" placeholder="Buscar cóctel...">
+    <button class="neon-button" onclick="searchCocktail()">Buscar</button>
+    <table id="cocktailTable"></table>
+  </div>
+  
+
+  <footer class="footer">    
+    
+    <!--Redes Sociales-->
+    <div class="container-redes">
+        <a class="links" href=""><i class="fa-brands fa-instagram icon"></i></a>
+        <a class="links" href=""><i class="fa-brands fa-square-facebook icon"></i></a>
+        <a class="links" href=""><i class="fa-brands fa-youtube icon"></i></a>
+    </div>
+    <!--para hacer la raya que separe el contenido del footer con derechos de autor es con hr-->
+        <hr>
+    
+    <!-- Modo oscuro-->
+
+    <div id="containert">
+     <div class="toggle"></div>
+     </div>
+
+     
+  <!--derechos de autor-->
+  <div class="final-container">
+    Copyright &copy; 2023 Cocktails.
+   </div> 
+
+   </footer>
+
+    <!--Javascript Toggle-->
+    <script src="./Javascript/toggle.js"></script>
+
+     <!--Buscar cocktails-->
+    <script src="./Javascript/script.js"></script>
+
+    </body>
+
+</html>
