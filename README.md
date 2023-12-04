@@ -8,5 +8,4 @@ El proyecto es una herramienta útil para los fans de Harry Potter que deseen ob
 Para más detalles, consulta la documentación del proyecto.
 
 Se puede consultar el diseño a través de este enlace: https://www.figma.com/file/DcYRBcbqvNoGiWTHyO80Km/Untitled?type=design&node-id=0%3A1&mode=design&t=dtmwiLqpuDZkwxLI-1
-El enlace de deployment: https://natalia9519.github.io/prueba-api/
-El diseño de ordenador sería el siguiente
+El enlace de deployment: https://newproject-cocktails.netlify.app/
